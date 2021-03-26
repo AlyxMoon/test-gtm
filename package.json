@@ -1,0 +1,14 @@
+{
+  "name": "test-gtm",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "AlyxMoon <allisterkmoon@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
