@@ -10,6 +10,16 @@
 
 <body>
   <h1>Hello World</h1>
+
+  <button
+    class="event-1"
+  >Click me for event!</button>
+
+  <script>
+    document.querySelector('.event-1').addEventListener('click', function () {
+      dataLayer.push({ 'event': 'event-1' })
+    });
+  </script>
 </body>
 
 </html>
